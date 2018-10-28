@@ -1,0 +1,56 @@
+
+
+
+<ion-content padding>
+ 
+    <ion-row class="login-logo">
+      <ion-col> <h1 class="title">Variedad Muebles </h1></ion-col>
+    </ion-row>
+   
+    <ion-row class="login-form">
+      <ion-col>
+        <ion-list inset>
+   
+          <ion-item>
+             
+          <button ion-button icon-left block style="background: #4267b2;">
+            <ion-icon name="logo-facebook"></ion-icon>
+           <button ion-button  style="background: #4267b2;" (click)="signInWithFacebook()" >
+            Ingresar con Facebook
+          </button>
+          </button>
+           
+          </ion-item>
+   
+          <ion-item>
+           
+              <ion-row>
+                  <ion-col>
+                      <button ion-button  primary class="login-button" (click)="login()" class="create-account" block>Login</button>
+                     
+                    </ion-col>
+                  <ion-col>
+                      <button ion-button  primary class="login-button" (click)="signup()" class="create-account" block>Registrarse</button>
+                   
+                  </ion-col>
+                  
+              </ion-row>
+           
+          </ion-item>
+   
+        </ion-list>
+   
+   
+   
+      </ion-col>
+    </ion-row>
+   
+      <ion-row>
+        <ion-col>
+          <br>
+          <br>
+        
+        </ion-col>
+    </ion-row>
+   
+  </ion-content>
